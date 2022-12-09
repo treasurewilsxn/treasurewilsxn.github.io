@@ -1,0 +1,27 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+.wrapper {
+margin: auto;
+width: 1000px;
+}
+
+
+.main {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(100px,100px));
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+img {
+  max-width:50% ;
+  height: auto;
+}
