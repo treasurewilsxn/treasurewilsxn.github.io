@@ -8,6 +8,10 @@ margin: auto;
 width: 1000px;
 }
 
+h1 {
+  color: rgb(242, 141, 219); /*pink*/
+}
+
 
 .main {
   position: absolute;
@@ -17,11 +21,12 @@ width: 1000px;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(100px,100px));
-  column-gap: 20px;
-  row-gap: 10px;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 
 img {
   max-width:50% ;
   height: auto;
+
 }
