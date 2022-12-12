@@ -59,11 +59,11 @@ li a:hover {
 }
 
 .main {
+  display: grid;
   position: absolute;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  display: grid;
   margin-top: 20px;
   grid-template-columns: repeat(auto-fill,minmax(300px,300px));
   column-gap: 10px;
