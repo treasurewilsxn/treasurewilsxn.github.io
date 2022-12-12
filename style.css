@@ -1,14 +1,14 @@
-* {
+*{
   margin:0;
   padding: 0;
 }
 
-.wrapper {
+.wrapper{
 margin: auto;
 width: 1000px;
 }
 
-h2 {
+h2{
   background-color: rgb(242, 141, 219); /*pink*/
 }
 
@@ -53,8 +53,4 @@ active
 img {
   max-width:50% ;
   height: auto;
-}
-
-body {
-  background-color: blue;
 }
