@@ -8,9 +8,31 @@ margin: auto;
 width: 1000px;
 }
 
-h1 {
-  color: rgb(242, 141, 219); /*pink*/
+h2 {
+  background-color: rgb(242, 141, 219); /*pink*/
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  background color: rgb(242, 141, 219);
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: (255,255,255);
+  text-align: center;
+}
+
+li a: hover {
+  background-color: (0.0,0)
+}
+
 
 
 .main {
